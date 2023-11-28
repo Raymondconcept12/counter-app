@@ -18,4 +18,11 @@ function save() {
 
 function reset() {
     savee.textContent = " Save: "
+    start = 0
+    text.textContent = start
+}
+
+function subt() {
+    start += -1
+    text.textContent = start
 }
